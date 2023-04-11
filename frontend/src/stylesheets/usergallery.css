@@ -1,0 +1,11 @@
+.userNav{
+    position: relative;
+}
+.users{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+}

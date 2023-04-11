@@ -1,0 +1,224 @@
+.titleSelection{
+    text-align: center;
+}
+
+.projectListItem{
+    /* border: 1px solid rgba(13,110,253,255); */
+    border-radius: 10px !important;
+}
+
+.selectedListItem{
+    text-align: center;
+    cursor: pointer;
+    background-color: #4285F4;
+    color: black !important;
+    border: 1px solid #4285F4;
+    border-radius: 10px 10px 10px 10px !important;
+}
+
+.selectedListItem:hover{
+    background-color: #4285F4;
+    box-shadow: 0px 0px 10px 1px #4285F4; 
+    border: 1px solid #4285F4;
+}
+  
+.selectedListItem:focus{
+    background-color: #4285F4;
+    box-shadow: 0px 0px 10px 1px #4285F4;
+    border: 1px solid #4285F4;
+}
+
+.warningTxt{
+    color: red;
+}
+
+.title2{
+    margin-left: auto;
+    width: 30%;
+    word-break:normal;
+    text-align: justify;
+}
+
+.assignBtn{
+    color: #4285F4;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.assignBtn:hover{
+    box-shadow: 0px 0px 10px 1px #4285F4; 
+    border-radius: 25px 10px 25px 10px ;
+}
+
+.listPhase{
+    border: none;
+    background-color: transparent;
+    color: black;
+}
+
+
+.removeBtnPhase{
+    cursor: pointer;
+    color: #4285F4;
+    float: right;
+    margin-top: 5px;
+}
+
+.removeBtnPhase:hover{
+   
+    box-shadow: 0px 0px 10px 1px #4285F4; 
+}
+
+
+
+.phaseSaveBtn{
+    background-color: #4285F4;
+    color: black;
+    width: 8rem;
+    margin: auto;
+    border: 1px solid #4285F4;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+
+.phaseSaveBtn:hover{
+    background-color: #4285F4;
+    border: 1px solid #4285F4;
+    box-shadow: 0px 0px 10px 1px #4285F4; 
+    color: black;
+  }
+  
+.phaseSaveBtn:focus{
+    background-color: #4285F4;
+    box-shadow: 0px 0px 10px 1px #4285F4;
+    border: #4285F4;
+    color: black;
+}
+
+
+
+.saveBtn{
+    background-color:#4285F4;
+    color: black;
+    width: 40%;
+    margin: auto;
+    border: 1px solid #4285F4;
+    border-radius: 7px;
+}
+
+
+.saveBtn:hover{
+    background-color:#4285F4;
+    border: 1px solid #4285F4;
+    color: black;
+  }
+  
+.saveBtn:focus{
+    background-color: #4285F4;
+    border: #4285F4;
+    color: black;
+}
+
+.completedBtn{
+    float: right;
+    color: #4285F4;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.completedBtn:hover{
+    background-color: #4285F4;
+    box-shadow: 0px 0px 10px 1px #4285F4;
+    border: #4285F4;
+    color: black;
+}
+
+
+.notificationImage{
+    width: 20%;
+    border-radius: 50px !important;
+}
+
+
+.projectListItem{
+    background-color: transparent !important;
+    color: black;
+    border-radius: 10px 10px 10px 10px !important;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.63); 
+    cursor: pointer;
+}
+
+
+.projectListItem:hover{
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.63);
+    cursor: pointer;
+}
+
+
+.dropBtn{
+    cursor: pointer;
+    background-color: #4285F4;
+    color: black !important;
+    border: 1px solid #4285F4;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+
+.dropBtn:hover{
+    background-color: #4285F4;
+    box-shadow: 0px 0px 10px 1px #4285F4; 
+    border: 1px solid #4285F4;
+}
+  
+.dropBtn:focus{
+    background-color: #4285F4;
+    box-shadow: 0px 0px 10px 1px #4285F4;
+    border: 1px solid #4285F4;
+}
+
+
+.dropDownCont{
+    background-color: #dad9d7;
+}
+
+
+.memberLists{
+    background-color: transparent !important;
+    color: black;
+}
+
+
+.toastMain{
+    background-color: transparent;
+    border: 1px solid #dad9d7;
+    border-radius: 25px 10px 25px 10px !important;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.63); 
+    cursor: pointer;
+}
+
+.toastHeader{
+    background-color: transparent;
+    color: #dad9d7;
+}
+
+
+.downloadBtn{
+    cursor: pointer;
+    background-color: #4285F4;;
+    color: black !important;
+    border: 1px solid #4285F4;
+    float: right;
+}
+
+
+.downloadBtn:hover{
+    background-color: #4285F4;
+    box-shadow: 0px 0px 10px 1px #4285F4; 
+    border: 1px solid #4285F4;
+}
+  
+.downloadBtn:focus{
+    background-color: #4285F4;
+    box-shadow: 0px 0px 10px 1px #4285F4;
+    border: 1px solid #4285F4;
+}
