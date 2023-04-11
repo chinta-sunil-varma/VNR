@@ -4,16 +4,14 @@ import { BrowserRouter as Router, Routes, Route,Link} from "react-router-dom";
 import App from "./App";
 import Homepage from "./Homepage";
 import Blogdetails from "./Blogdetails.js";
+import Nav from './Nav'
 
 const Demo = () => {
   return (
 
     
       <Router>
-      <nav>
-        <Link to="/app">Create form</Link><br></br>
-        <Link to="/homepage">View all blogs</Link>
-      </nav>
+      <Nav></Nav>
         <Routes>
           <Route path="/app" element={<App/>} />
           <Route path="/homepage" element={<Homepage/>} />
